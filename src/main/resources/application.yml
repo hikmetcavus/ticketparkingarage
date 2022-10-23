@@ -1,0 +1,14 @@
+server:
+  port: 8085
+
+springdoc:
+  swagger-ui:
+    use-root-path: false
+    config-url: /apidoc
+  packagesToScan: net.hikmetcavus.garage.resources
+  api-docs:
+    path: /apidoc
+spring:
+  application:
+    name: Garage
+
